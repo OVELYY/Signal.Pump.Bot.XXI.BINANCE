@@ -85,7 +85,7 @@ GOOD LUCK AND PROFITABLE TRADING TO EVERYONE!
 
 
 P.S.:
-The bot is free to distribute and is free, but, as usual in the environment of programmers and taders,
+The bot is free to distribute and is FREE, but, as usual in the environment of programmers and traders,
 thanks of any size are welcome.
 
 BTC: 1BTCoinE4qNnLmyRhBQLihwxUD88JdzkAh
