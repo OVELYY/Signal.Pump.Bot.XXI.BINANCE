@@ -88,4 +88,4 @@ thanks of any size are welcome.
 
 BTC: 1BTCoinE4qNnLmyRhBQLihwxUD88JdzkAh
 
-Comments, suggestions on this release and prospects are accepted at: signal. pump.bot@gmail.com.
+Comments, suggestions on this release and prospects are accepted at:  signal.pump.bot@gmail.com.
