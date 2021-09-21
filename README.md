@@ -16,7 +16,9 @@ The program takes the list of currency pairs for monitoring from a file CURRENCY
 Currency pairs should be written in the file line by line in the BINANCE standard, namely, together and in capital letters:
 
 BTCUSDT
+
 ETHBUSD
+
 1INCHUSDT
 
 The number of pairs can be from 1 to 500.
@@ -30,26 +32,26 @@ signal_pump_bot [% UP for BUY] [% DOWN for SELL] [timeout seconds] [BUY amount $
 
 Here:
 
-signal_pump_bot-calling the actual executable file signal_pump_bot.exe;
+signal_pump_bot     - calling the actual executable file signal_pump_bot.exe;
 
-[% UP for BUY] - setting the signal percentage of the price rise (it can be a fractional value with a decimal POINT),
+[% UP for BUY]      - setting the signal percentage of the price rise (it can be a fractional value with a decimal POINT),
 exceeding which for the FIRST TIME leads to the PURCHASE of a coin if there are free funds on the balance;
 
-[% DOWN for SELL] - setting a signal percentage of price reduction (it can be a fractional value with a decimal POINT), the
+[% DOWN for SELL]   - setting a signal percentage of price reduction (it can be a fractional value with a decimal POINT), the
 negative excess of which for the FIRST TIME leads to the SALE of a coin previously purchased on the rise,
 calculating the profit and crediting it to the balance;
 
-[timeout seconds] - specifies the timeout between requests in seconds (INTEGERS ONLY!). BINANCE.The API sets limits on the number of requests
+[timeout seconds]   - specifies the timeout between requests in seconds (INTEGERS ONLY!). BINANCE.The API sets limits on the number of requests
 and after exceeding the limits, it bans by IP. Therefore, and also, based on the comfort of perception of data on the screen,
 the recommended timeout is within the range of 5..20 seconds. Too frequent requests often shift the lines on the screen,
 and too rare ones miss the moment of a sharp price change, as a result of which the signals are delayed;
 
-[BUY amount $] - the order purchase amount is set to $ (INTEGERS ONLY!).
+[BUY amount $]      - the order purchase amount is set to $ (INTEGERS ONLY!).
 Each purchase is made for the same amount for the correct comparison of profits after the sale of the coin;
 
-[start balance $] - start balance (can be a fractional value with a decimal POINT);
+[start balance $]   - start balance (can be a fractional value with a decimal POINT);
 
-[% fee] - commission for the transaction (it can be a fractional value with a decimal POINT). On BINANCE, the commission is usually 0.1% of the transaction,
+[% fee]             - commission for the transaction (it can be a fractional value with a decimal POINT). On BINANCE, the commission is usually 0.1% of the transaction,
 but you can set any other one that would simulate other losses when trading.
 
 
@@ -59,7 +61,7 @@ All parameters must be separated by a space!
 Example of a correct bot launch string:
 
 
-signal_pump_bot 2.5 1 10 25 1000 0.25
+signal_pump_bot.exe 2.5 1 10 25 1000 0.25
 
 
 Necessary comments, based on the experience of using it ...
