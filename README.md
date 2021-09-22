@@ -75,8 +75,8 @@ The bot monitors the exchange prices for the last 10 connection sessions (i.e. a
 So the output to the working mode occurs only after a dozen connections.
 
 The program writes logs to the LOG_BOT.TXT is in full accordance with what is happening in the window on the screen.
-For clarity of monitoring the profitability of trading, the current total value of ALL acquired assets,
-including free balance funds, is displayed in the header with the name of the bot window - TOTAL ASSET $: and in ACTIVE.TXT.
+For clarity of monitoring the profitability of trading, the number of currency pairs, the number of BUY-SELL transactions, the total profit and 
+the current total value of ALL acquired assets, including free balance funds, is displayed in the header with the name of the bot window and in ACTIVE.TXT.
 
 Of course, the behavior of the bot is not a guide to action, but it is a powerful information adviser for making decisions in trading.
 
